@@ -1,3 +1,11 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.btn {
+    @apply px-4 py-2 border shadow-sm hover:shadow-md active:shadow rounded-lg transition-shadow
+}
+
+.btn-block {
+    @apply block
+}
