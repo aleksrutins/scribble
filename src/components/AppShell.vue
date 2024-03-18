@@ -12,5 +12,5 @@
 </script>
 
 <template>
-
+    Logged in as {{ user?.displayName }}
 </template>
